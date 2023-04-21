@@ -2,5 +2,6 @@ package com.example.android.unscramble.ui
 
 import androidx.lifecycle.ViewModel
 
-class GameViewModel : ViewModel() {
-}
+data class GameUiState(
+    val currentScrambledWord: String = ""
+)
